@@ -1,7 +1,7 @@
 ## Neural Spline Flow for 1 dimension probability density estimation
 
 
-The easiest way to get started with this code is by checking out the notebook [`tutorial.ipynb`](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/tutorial.ipynb). This tutorial outlines the process of estimating the potential outcomes for a specific treatment option by first clustering the potential outcome dataset based on each patient's tumor volume at previous time points. Patients are grouped according to the severity of their condition, and a specific patient subgroup is then selected for detailed analysis.  
+The easiest way to get started with this code is by checking out the notebook [`tutorial.ipynb`](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/tutorial.ipynb). This tutorial outlines the process of estimating the distribution of potential outcomes for a specific treatment option by first clustering the potential outcome dataset based on each patient's tumor volume at previous time points. Patients are grouped according to the severity of their condition, and a specific patient subgroup is then selected for detailed analysis.  
 
 This is a PyTorch implementation of Neural Spline Flow for 1D distributions, extended from the original paper "Neural Spline Flows" by Conor Durkan et al.  
 
