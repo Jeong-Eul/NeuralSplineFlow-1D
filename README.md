@@ -14,10 +14,10 @@ The animations of potential outcome distribution are added to show how the norma
 
 | Skewed | Mixture | Sin+Noise |
 |--------------|-------------------|-----------|
-|     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/skewed_distribution.jpg "Density $skewed$") |![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/Mixture_gaussian.jpg "Density $mixture$")                |     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/sinnoise.jpg")      |
+|     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/skewed_distribution.jpg "Density $skewed$") |![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/Mixture_gaussian.jpg "Density $mixture$")                |     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/sinnoise.jpg" "Density $sinnoise$")      |
   
 
 | Control (Not treated) | Treatment (Chemo+Radio) | Result |
 |--------------|-------------------|-----------|
-|     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/code/gifs/Cancer_po_treatment_1_cluster_2.gif "Density $skewed$") |![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/code/gifs/Cancer_po_treatment_4_cluster_2.gif "Density $mixture$")                |     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/code/Cancer_PO_distribution/po_treatment_4_cluster_2_marginal_distribution/marginal_distribution.png "Density $sin+noise$")      |
+|     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/code/gifs/Cancer_po_treatment_1_cluster_2.gif "Density $skewed$") |![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/code/gifs/Cancer_po_treatment_4_cluster_2.gif "Density $mixture$")                |     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/code/Cancer_PO_distribution/po_treatment_4_cluster_2_marginal_distribution/marginal_distribution.png "Density $sinnoise$")      |
   
