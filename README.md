@@ -14,7 +14,7 @@ The animations of potential outcome distribution are added to show how the norma
 
 | Skewed | Mixture | Sin+Noise |
 |--------------|-------------------|-----------|
-|     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/skewed_distribution.jpg "Density $skewed$") |![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/Mixture_gaussian.jpg "Density $mixture$")                |     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/sin%2Bnoise.jpg")      |
+|     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/skewed_distribution.jpg "Density $skewed$") |![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/Mixture_gaussian.jpg "Density $mixture$")                |     ![alt text](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/img/sinnoise.jpg")      |
   
 
 | Control (Not treated) | Treatment (Chemo+Radio) | Result |
