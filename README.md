@@ -1,15 +1,26 @@
 ## Neural Spline Flow for 1 dimension probability density estimation
 
-The easiest way to get started using this code is probably by checking out the notebook [`tutorial.ipynb`](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/tutorial.ipynb).
 
-Pytorch implementation of Neural Spline Flow 1D which is expanded the implementation the paper "Neural Spline Flows" by Conor Durkan, et al. 
-The example dataset used in this protocol is predicted cancer potential outcome (processed_potential_outcomes.csv) which is potential outcome of cancer volume for assigned treatment option (1: not treated, 2: Chemo only, 3: Radio only, 4: Chemo + Radio)  
+The easiest way to get started with this code is by checking out the notebook [`tutorial.ipynb`](https://github.com/Jeong-Eul/NeuralSplineFlow-1D/blob/main/tutorial.ipynb). This tutorial outlines the process of estimating the potential outcomes for a specific treatment option by first clustering the potential outcome dataset based on each patient's tumor volume at previous time points. Patients are grouped according to the severity of their condition, and a specific patient subgroup is then selected for detailed analysis.  
 
-Below example, I have implemented some toy example distribution to identify 1D NeuralSplineFlow still estimate a complicate distribution shape. The number of bins are set to *10* for all experiments. The learning rate, number of iterations and other hyperparameter used are given by the experiment script file (nf_spline.sh). Set the hyperparameters of the normalising flow in `nf_spline.sh` and run to reproduce these results.  
+This is a PyTorch implementation of Neural Spline Flow for 1D distributions, extended from the original paper "Neural Spline Flows" by Conor Durkan et al.  
 
-The yoy experiments highlight the flexibility of normalising flows by showing that they can transform a standard Gaussian into skewed, mixture distribution and sin+noise.   
+The example dataset used in this repository is data/processed_potential_outcomes.csv, which contains the potential outcomes of cancer volume under different treatment options:  
 
-The animations of potential outcome distribution are added to show how the normalising flow gradually expands and contracts the input space into the desired target density. By feeding samples from a standard bivariate Gaussian into the trained flow network, we can draw new samples from the target density.  
+1: Not treated  
+
+2: Chemotherapy only  
+
+3: Radiotherapy only  
+
+4: Chemotherapy + Radiotherapy  
+
+In the example below, I implemented a toy distribution to verify that 1D Neural Spline Flow can still capture complex distributional shapes. The number of bins is set to 10 for all experiments. The learning rate, number of iterations, and other hyperparameters are defined in the script file `nf_spline.sh`.
+To reproduce the results, simply set the hyperparameters in `nf_spline.sh` and run the script.  
+
+These toy experiments demonstrate the flexibility of normalizing flows by showing how they can transform a standard Gaussian into various complex target distributions, including skewed distributions, mixtures, and sinusoidal patterns with noise.
+
+Animations of the learned potential outcome distributions are included to visualize how the normalizing flow gradually expands and contracts the input space to match the desired target density. By feeding samples from a standard Gaussian into the trained flow network, we can generate new samples from the target distribution.
 
 
 | Skewed | Mixture | Sin+Noise |
